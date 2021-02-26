@@ -1,0 +1,22 @@
+name: microscope_video_conversion
+channels:
+  - defaults
+  - conda-forge
+  - antonkulaga
+  - bioconda
+dependencies:
+  - python=3.8
+  - jupyterlab>=2.2.8
+  - dvc>=1.11.9
+  - papermill>=2.2.2
+  - mamba>=0.7.5
+  - scikit-learn>=0.23.2
+  - seaborn>=0.11.1
+  - more-itertools>=8.4.0
+  - statsmodels>=0.11.1
+  - plotly>=4.14.1
+  - pims>=0.5
+  - opencv>=4.5.1
+  - scikit-image>=0.17.2
+  - jpype1>=1.2.1
+prefix: /opt/miniconda3/envs/microscope_video_conversion

@@ -1,0 +1,44 @@
+node_modules
+*.class
+*.log
+logs
+.~*
+noarch
+#VIM spegcific
+tags
+.*.swp
+.*.swo
+
+#MAC OS specific
+.DS_Store
+
+# sbt specificf
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.idea
+.idea/*
+
+*.egg-info
+**/.ipynb_checkpoints/*
+__pycache__/
+/data.xml
+expressions/.gitignore
+expressions/all.dvc
+expressions/all/
+expressions/by_animal_class.dvc
+expressions/by_animal_class/
+expressions/by_class_tissue.dvc
+raw.githubusercontent.com
+data/output/external/causal_relations_5_tissues_anton_species_5_bootstraps.csv
+
+# nonrelevant files
+data/output/external/impute.R
+data/output/external/imputed_dataset.RData
+
