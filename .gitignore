@@ -26,6 +26,7 @@ project/plugins/project/
 .idea/*
 
 *.egg-info
+notebooks/.ipynb_checkpoints
 **/.ipynb_checkpoints/*
 __pycache__/
 /data.xml
